@@ -1,0 +1,15 @@
+{
+    "name": "ocr-automation",
+    "version": "1.0.0",
+    "description": "OCR and Grammar Correction Automation",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "firebase-admin": "^11.5.0",
+        "tesseract.js": "^4.0.2",
+        "node-fetch": "^2.6.1"
+    }
+}
